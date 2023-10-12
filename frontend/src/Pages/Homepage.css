@@ -1,0 +1,42 @@
+.App {
+  background-color: #d2d2d2;
+}
+.Homepage {
+  display: flex;
+  flex-direction: row;
+  max-width: 60%;
+  width: 60%;
+  /* height: 100vh; */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.sports_container_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form_container {
+  display: flex;
+  flex-direction: row;
+}
+.Sports_container {
+  flex: 2;
+  padding-left: 1rem;
+}
+.Sports_menu {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 400px) {
+  .Homepage {
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column-reverse;
+  }
+}

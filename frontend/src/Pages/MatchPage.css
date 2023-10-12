@@ -1,0 +1,23 @@
+.MatchPage {
+  /* display: flex;
+  flex-direction: row; */
+  max-width: 60%;
+  width: 60%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.live_comments {
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+@media screen and (max-width: 400px) {
+  .MatchPage {
+    width: 100%;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,11 @@
+.SportsIcon {
+  width: 20px;
+  padding-bottom: 0.2rem;
+}
+.nav-link {
+  margin-left: 1rem !important;
+}
+.login_button:hover {
+  background-color: #1b998b !important;
+  border: #1b998b;
+}
